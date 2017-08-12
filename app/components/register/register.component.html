@@ -1,0 +1,44 @@
+<h2 class ="page-header"> Register </h2>
+<body>
+<div class="login-page">
+  <div class="form">
+    <form class="login-form" (submit)="onRegisterSubmit()">
+          <input type = "text" [(ngModel)]="name" name="name" class = "form-control" placeholder="name">
+          <input type = "text" [(ngModel)]="username" name="username" class = "form-control" placeholder="username">
+          <input type = "text" [(ngModel)]="email" name="password" class = "form-control" placeholder="email">
+          <input type = "password" [(ngModel)]="password" name="password" class = "form-control" placeholder="password">
+          <input type = "text" [(ngModel)]="age" name="age" class = "form-control" placeholder="age">
+          <select input type = "text" [(ngModel)]="gender" name="gender" class = "form-control" placeholder="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Female">Other</option>
+          </select>
+
+          <select input type = "text" [(ngModel)]="team" name="team" class = "form-control" placeholder="favorite team">
+            <option value="Adelaide Crows">Adelaide</option>
+            <option value="Brisbane Lions">Brisbane</option>
+            <option value="Carlton">Carlton</option>
+            <option value="Collingwood">Collingwood</option>
+            <option value="Essendon">Essendon</option>
+            <option value="Fremantle">Fremantle</option>
+            <option value="Geelong">Geelong</option>
+            <option value="Gold Coast">Gold Coast</option>
+            <option value="GWS Giants">Greater Western Sydney</option>
+            <option value="Hawthorn">Hawthorn</option>
+            <option value="Melbourne">Melbourne</option>
+            <option value="North Melbourne">North Melbourne</option>
+            <option value="Port Adelaide">Port Adelaide</option>
+            <option value="Richmond">Richmond</option>
+            <option value="St Kilda">St Kilda</option>
+            <option value="Sydney">Sydney</option>
+            <option value="West Coast">West Coast</option>
+            <option value="Western Bulldogs">Western Bulldogs</option>
+          </select>
+
+        <button input type = "submit" class = "btn btn-primary" value = "Submit"> Register </button>
+    </form>
+  </div>
+</div>
+
+
+
